@@ -34,7 +34,7 @@ export function VenueInfo() {
         <View style={styles.imageContainer}>
           <Image
             source={require("@/assets/images/hotel.png")}
-            style={{ width: hotelImageSize, height: hotelImageSize }}
+            style={{ width: "100%", height: hotelImageSize }}
           />
         </View>
         <LinearGradient
